@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Coding Quiz Challange</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./Assets/CSS/reset.CSS'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./Assets/CSS/styles.CSS'>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id= "highscores">View Highscores</a>
+            <h1 id = "timer"></h1> 
+        </nav>
+
+    </header>
+    <h2>Coding Quiz Challange</h2>
+    <p id = "intro">Click the start button to start the quiz. You will have to answer a series of questions in 60 seconds. <br> Good Luck!</p>
+    <p id = "question"></p>
+    <ul id = "scoreboard">
+    </ul>
+    <form id = "scoreInput">
+        <label for="name">Name:</label><input type="text" id="nameInput" name="fname"><input type="submit" id = "submitButton">
+    </form>
+    <div class="answerContainer">
+        <button class = "ansrButton" id = "a1"></button>
+        <button class = "ansrButton" id = "a2"></button>
+        <button class = "ansrButton" id = "a3"></button>
+        <button class = "ansrButton" id = "a4"></button>
+    </div>
+    <section id = "ansValidity"></section>
+    <div class="navButtons">
+        <button class = "rsButton" id = "start-button">Start Quiz</button>
+    </div>
+</body>
+<script src='./Assets/JavaScript/script.js'></script>
+</html>
